@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block content %}
+
+
+<h1>Ip scanner</h1>
+<p>Paste your IP addresses below</p>
+<form method="POST">
+    <textarea id="scanner" name="scanner" rows="4" cols="50"></textarea>
+    <br>
+    <button type="submit">
+        Submit
+    </button>
+</form>
+
+{% endblock %}
