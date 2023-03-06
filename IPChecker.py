@@ -18,7 +18,7 @@ class iptester():
 
                 headers = {
                     "accept": "application/json",
-                    "x-apikey": "" ########################## API KEY HERE 
+                    "x-apikey": "" ######################### API KEY HERE 
                 }
 
                 response = requests.get(url, headers=headers)
